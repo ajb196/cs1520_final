@@ -2,11 +2,13 @@
 
 <div class="col-lg-1"></div>
 
-<div class="col-lg-10 paper shadow">
+<div class="col-lg-10 paper">
 
-	<div class="row">
+	<div class="row content-rows">
 	
 		<div class="col-xs-12">
+
+			<h2 class="secHead">Austin Bagnato</h2>
 		
 			I'm Austin Bagnato a student in university and (sometimes) a freelance web developer. <br><br>
 

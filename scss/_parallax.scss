@@ -1,14 +1,7 @@
-/* ==========================================================================
-   Parallax Scroll
-   ========================================================================== */
 body, html {
 	height: 100%;
 	min-height: 100%;
 	background-color: #3B3738;
-}
-
-body {
-	color:#3B3738;
 }
 
 .no-js {
@@ -82,7 +75,6 @@ main {
 
 	h2  {
 		color: #000;
-		/*background-color: rgba(0,0,0,0.5);*/
 		padding: 10px 5px;
 		font-size: 35px;
 		line-height: 38px;
@@ -106,7 +98,6 @@ main {
 	border-right:10px solid $green;
 }
 
-/* Slide 1 */
 #splash {
 	.bcg {
 		background-image:url('../img/dramatic.jpg')
@@ -115,8 +106,6 @@ main {
 	.hsContent {
 		margin-left: -450px;
 		top: auto;
-
-		
 	}
 
 	h2 {

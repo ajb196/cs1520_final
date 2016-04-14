@@ -1,6 +1,5 @@
 <!-- list component -->
 
-<!-- contains all information for the list in an array -->
 <?php 
     $types = ["Proffesional","Habit","Skill","Fun","Travel","Life"];
 
@@ -65,7 +64,6 @@
 
     </div>
 
-    <!-- prints each section and its goals -->
     <?php foreach($goals as $type => $typeGoals) {?>
          <div class="row">
             

@@ -1,10 +1,8 @@
-/*force width*/
 nav {
 	width:100%;
-	z-index:100000000;
+	z-index:10000000;
 }
 
-/*styles for both navs*/
 .navbar-nav {
 	a:hover {
 		background-color:$black !important;
@@ -26,7 +24,6 @@ nav {
 	}
 }
 
-/*standard nav*/
 .navbar-custom {
 	border-radius:0px !important;
 	border-bottom:2px solid $green !important;
@@ -46,8 +43,6 @@ nav {
 	}
 }
 
-
-/*parallax nav*/
 .navbar-trans {
 	left:50%;
 	right:50%;
@@ -68,4 +63,8 @@ nav {
 	.navbar-nav {
 		width:100%;
 	}
+}
+
+.navbar-fixed-top {
+	margin-left:0px;
 }

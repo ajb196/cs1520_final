@@ -2,47 +2,39 @@
 
 <div class="col-lg-1"></div>
 
-<div class="col-lg-10 paper shadow">
+<div class="col-lg-10 paper">
 
-	<h2 class="secHead">Contact</h2>
+	<div class="row content-rows">
 
-	<?php if ($contact) {?> 
-		<h2 class="secHead">Message Sent</h2>
-	<?php } else { ?>
+		
+		<div class="col-xs-0 col-sm-2 "></div>
 
-		<div class="row">
+		<div class="col-xs-12 col-sm-8 paper">
 
-			<form action="index.php" method="POST">
-				<div class="col-xs-0 col-sm-2 col-md-3"></div>
+			<h2 class="secHead">Contact</h2>
+			
+			<div id="contactForm">
+				<div class="form-group">
+					<label class='contact-label' id="nameLabel" for="name">Name</label>
+					<input id="name" class="form-control" type="text" size="30" autocomplete="off">
+				</div>
 
-				<div class="col-xs-12 col-sm-8 col-md-6 paper">
-					
-					<div class="form-group">
-						<label for="name">Name</label>
-						<input id="name" class="form-control" type="text" name="name" size="30" required autocomplete="off">
-					</div>
+				<div class="form-group">
+					<label class='contact-label' id="emailLabel" for="email">Email</label>
+					<input id="email" class="form-control" type="text" size="30" autocomplete="off">
+				</div>
 
-					<div class="form-group">
-						<label for="email">Email</label>
-						<input id="email" class="form-control" type="text" name="email" size="30" required autocomplete="off">
-					</div>
+				<div class="form-group">
+					<label class='contact-label' id="msgLabel" for="message">Message</label>
+					<input id="message" class="form-control" type="memo" autocomplete="off">
+				</div>
 
-					<div class="form-group">
-						<label for="message">Message</label>
-						<input id="message" class="form-control" type="memo" name="message" size="30" required autocomplete="off">
-					</div>
-
-					<center><button class="btn btn-primary" type="submit">Submit</button></center>
-
-				</div><!--/form-group-->
-
-				<div class="col-xs-0 col-sm-2 col-md-3"></div>
-			</form>
-
+				<div class='btn-div'><button class="btn btn-custom" id="contactBtn">Submit</button></div>
+			</div>
 		</div>
 
-	<?php } ?>
-
+		<div class="col-xs-0 col-sm-2"></div>
+	</div>
 </div>
 
 <div class="col-lg-1"></div>
