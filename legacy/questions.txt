@@ -1,0 +1,20 @@
+What did you change/enhance from part 1?
+
+From part 1 of the project I changed and enhanced a couple of items.
+The first being the contact form. The contact form was originally submitted using PHP, causing a hard refresh of the page to inform the user that their message was recieved. The contact form now is submitted via AJAX. This allows for a more seamless use experience.
+I also added a "mobile" section to the site using Bootstrap. The scrolling effects that I used resulted in the site being unusable on smaller viewports. So I solved this problem by using bootstrap to remove the effects when the viewport is smaller than a certain pixel width.
+Style was also edited slightly. The contact form now matches the theme of the rest of the page and no longer has the default bootstrap styling, and the bio section now has style and a header.
+The final thing I did was formatting code. Unnecessary comments and redundent code was removed. Php documents were formatted to improve readability.
+
+If there was a third part to the class project, what would you like to implement?
+
+If there was a third part of the project I would have liked to attempt to build a blog using Ember. I actually have a lot more experience using Ember than vanilla javascript and php, but working with an opinionated framework presents its own share of difficulties. I think building a blog with a RESTful API in php would be very interesting and I may pursue this in my own time.
+
+What did you learn between part 1 and part 2?
+
+Between part 1 and part 2 I gained a much greater knowledge of the fundamentals of JavaScript. I have been using Ember at my job, but I lacked a basis in the basics. So I learned a lot about the proper way to use javascript outside the context of a framework.
+
+What did you like about this project? How could it have been better?
+
+I liked this project because it allowed for a lot of creativity. Today programming for the web and designing for the web have become very intertwined, and this project gave students the oppurtunity to explore coding and styling their own web page of choice. The ability to choose what technologies to use was also very cool, allowing students to practice other skills relating to the course.
+I honestly can't think of something to improve the project. I thought it worked very well for this course.
